@@ -22,7 +22,7 @@
 		&nbsp;&nbsp;$fieldname(optional)<br/>
 	);
 </p>
-<p><small>This will unlink previous file (if existed) & save new uploaded file & return new file name.</small></p>
+<p><small>This will unlink old file (if existed) & save new uploaded file & return new file name.</small></p>
 
 <li>Delete</li>
 <p>
@@ -32,5 +32,5 @@ $this->FileHandler->fileEdit(<br/>
 	&nbsp;&nbsp;$fieldname(optional)<br/>
 );
 </p>
-<p><small>This will unlink previous file (if existed).</small></p>
+<p><small>This will unlink old file (if existed).</small></p>
 </ol>
