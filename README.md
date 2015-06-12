@@ -11,7 +11,7 @@
 	  &nbsp;&nbsp;$this->request->data['Model']['fieldname']<br/>
 	);
 </p>
-<p><small>This will save new uploaded file & return file name.</small></p>
+<p><small>This will save new uploaded file & if file had no errors return file name.</small></p>
 <li>Edit</li>
   <p>
   	$fields = $this->Model->read(NULL, $id);<br/>
