@@ -27,7 +27,7 @@
 <li>Delete</li>
 <p>
 $fields = $this->Model->read(NULL, $id);<br/>
-$this->FileHandler->fileEdit(<br/>
+$this->FileHandler->fileDelete(<br/>
 	&nbsp;&nbsp;$fields['Model'],<br/>
 	&nbsp;&nbsp;$fieldname(optional)<br/>
 );
